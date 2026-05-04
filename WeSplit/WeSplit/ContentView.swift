@@ -70,10 +70,8 @@ struct ContentView: View {
             }
             .navigationTitle("WeSplit")
             .toolbar {
-                if amountIsFocused {
-                    Button("Done") {
-                        amountIsFocused = false
-                    }
+                Button("Done") {
+                    amountIsFocused = false
                 }
             }
         }
