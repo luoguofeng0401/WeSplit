@@ -45,7 +45,7 @@ struct ContentView: View {
                     
                     Picker("Number of people", selection: $numberOfPeople) {
                         ForEach(2..<100, id: \.self) {
-                            Text("\($0) people\(numberOfPeople)")
+                            Text("\($0) people")
                         }
                     }
                 }
